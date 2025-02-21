@@ -1,0 +1,61 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.banner {
+background-image: url(./PortfolioImages/image-asset.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+padding: 200px 0;
+}
+
+.skills-padding {
+padding: 70px 0;
+}
+
+.hover:hover{
+background-color: rgb(73, 78, 78);
+color: white;
+text-decoration: underline;
+}
+.hover1:hover{
+background-color: black;
+color: white;
+}
+.hover2:hover{
+background-color: rgb(0, 132, 255);
+color: white;
+}
+.hover3:hover{
+background-color: rgb(71, 194, 87);
+color: white;
+}
+.hover4:hover{
+text-decoration: none;
+background-color: rgb(71, 194, 87);
+color: white;
+}
+
+.next:hover{
+color: wheat;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-color: black;
+}
+
+.custom-control {
+filter: invert(1);
+}
+
+/* Custom styles for dark carousel indicators */
+.carousel-indicators.dark-indicators button {
+background-color: #000; /* Dark background color */
+}
+
+.carousel-indicators.dark-indicators button.active {
+background-color: #333; /* Slightly lighter dark for active state */
+}
